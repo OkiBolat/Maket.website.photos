@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+}
+.container {
+    max-width: 1520px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+}
+.header__list {
+    display: flex;
+    margin-left: 20px;
+}
+.header__nav {
+    margin-right: auto;
+}
+
+
+.header__list > li > a {
+    color: #18A0FB;
+    font-size: 18px;
+    margin-left: 42px;
+}
+
+.button-1 {
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #18A0FB;
+    background-color: white;
+    border-radius: 4px;
+
+
+}
+
+.button-1:hover {
+    background-color:#18A0FB;
+    
+}
+
+
+.button-2 {
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #18A0FB;
+    background-color: #18A0FB;
+    border-radius: 4px;
+}
+.main-container {
+    display: flex;
+    justify-content:space-between;
+}
+.big-text {
+    margin-top: 60px;
+    width: 750px;
+    height: 144px;
+    font-size: 48px;
+}
+.small-text {
+    width: 686px;
+    height: 90px;
+}
+.column-h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 40px;
+}
+.line {
+    margin-top: 50px;
+    height: 1px;
+    width: 100%;
+    border: 1px solid black;
+}
+.img-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img_column {
+    width: 100%;
+    padding: 100px 70px 50px 0px;
+    border-radius: px;
+}
+.img-text__text .column-h4 {
+    margin-top: 200px;
+    
+}
+.down-main {
+    background-color: #F5F5F5;
+}
+.down-main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.down-main__image {
+    height: 440px;
+    width: 750px;
+    padding: 30px;
+}
+.footer-main .container {
+   width: 600px;
+   align-items: center;
+   
+}
+.footer-main__first-box {
+    display: flex;
+}
+.footer-image__first-column {
+    display: block;
+}
+.footer-image {
+    height: 50px;
+    width: 100px;
+}
+.footer-main__title {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.footer-main__title-text {
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0 auto;
+}
